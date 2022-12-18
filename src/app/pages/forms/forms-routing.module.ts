@@ -6,12 +6,17 @@ import { FormInputsComponent } from './form-inputs/form-inputs.component';
 import { FormLayoutsComponent } from './form-layouts/form-layouts.component';
 import { DatepickerComponent } from './datepicker/datepicker.component';
 import { ButtonsComponent } from './buttons/buttons.component';
+import { AddPotholeComponent } from './add-pothole/add-pothole.component';
 
 const routes: Routes = [
   {
     path: '',
     component: FormsComponent,
     children: [
+      {
+        path: 'addpothole',
+        component: AddPotholeComponent,
+      },
       {
         path: 'inputs',
         component: FormInputsComponent,

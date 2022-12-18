@@ -48,6 +48,10 @@ export const MENU_ITEMS: NbMenuItem[] = [
     icon: 'edit-2-outline',
     children: [
       {
+        title: 'Add Pothole',
+        link: '/pages/forms/addpothole',
+      },
+      {
         title: 'Form Inputs',
         link: '/pages/forms/inputs',
       },
